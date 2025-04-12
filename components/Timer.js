@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { StyleSheet, View, Text, AppRegistry } from "react-native";
+import { StyleSheet, View, Text } from "react-native";
 import { AnimatedCircularProgress } from "react-native-circular-progress";
 import { Entypo } from '@expo/vector-icons';
 import { Audio } from 'expo-av';
@@ -11,7 +11,6 @@ let id;
 // AppRegistry.registerHeadlessTask('timer', () => {
 //     id = setInterval(() => {
 //         // setTime(prev => prev - 1);
-//         console.log("bakak");
 //     }, 1000);
 // });
 
